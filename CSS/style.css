@@ -7,7 +7,7 @@ body {
     text-align: center;
     color: white;
     font-weight: 200;
-    font-size: 20px;
+    font-size: 30px;
     font-family: Arial, Helvetica, sans-serif;
  } 
 
@@ -43,4 +43,24 @@ body {
   padding: 15px; 
   align-self:flex-end;
   font-family: Arial, Helvetica, sans-serif;
+  }
+
+  @media only screen and (max-width: 600px) {
+    body {
+      background-color: black;
+    }
+    .header {
+      font-size: 18px;
+    }
+
+    .flexItem {
+      display: flex;
+      flex-wrap: row;
+    }
+
+    .button {
+      width: 90px;
+      font-size: 14px;
+      align-self: center; 
+    }
   }
