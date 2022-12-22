@@ -1,9 +1,3 @@
-body {
-  background-color: black;
-}
-
-.flexContainer {
-  display: grid;
-  grid-template-columns: auto auto auto;
-  justify-content: space-between;
+a body {
+    background-color: black;
 }
